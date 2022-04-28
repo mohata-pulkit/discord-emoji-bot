@@ -1,4 +1,7 @@
 const Discord = require('discord.js');
+const dotenv = require('dotenv');
+dotenv.config();
+
 const bot = new Discord.Client();
 const token = process.env.API_KEY;
 
