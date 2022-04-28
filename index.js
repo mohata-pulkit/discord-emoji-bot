@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const token = 'NzQ1NTE0NjEwMDE4MjIyMTYx.Xzy4lg.qbRdgCyc-XWV8CNfgR7e_gomo3o';
+const token = process.env.API_KEY;
 
 // flushed to sunglasses
 bot.on('message', msg => {
